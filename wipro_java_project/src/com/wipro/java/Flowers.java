@@ -16,8 +16,7 @@ public class Flowers {
 	
 	void display() {
 		
-		System.out.println("Flower Name: " +flowerName);
-		System.out.println("Flower Color: " +flowerColor);
+		System.out.println("Flower Name: " + flowerName +"Flower Color: " + flowerColor);
 	}
 
 	
