@@ -3,9 +3,7 @@
  */
 package com.wipro.java;
 
-/**
- * 
- */
+
 public class MyClass {
 
 	int num = 5;
@@ -15,13 +13,11 @@ public class MyClass {
 		this.num = num;
 	
 		}
-	public MyClass() {
+	public MyClass(){
 		
 	}
 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MyClass obj = new MyClass();
