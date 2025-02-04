@@ -10,12 +10,12 @@ public class JavaException {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
      
-		int i = 35;
-		int j = 0;
+		int num1 = 35;
+		int num2 = 0;
 		int result;
 		try {
-			result = i/j;
-			
+			result = num1/num2;
+			System.out.println(result);
 		}
 		
 		catch(Exception e) {
