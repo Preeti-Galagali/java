@@ -6,12 +6,12 @@ public class Calculator {
 		// TODO Auto-generated constructor stub
 	}
 	
-	// Method to Add two numbers
+	// method to add two numbers
 	public int add(int a, int b) {
 		return a + b;
 	}
 	
-	// Method to subtract two Numbers
+	// method to subtract two Numbers
 	public int substract(int a, int b) {
 		return a - b;
 		
