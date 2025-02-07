@@ -6,7 +6,7 @@ public class Calculator {
 		// TODO Auto-generated constructor stub
 	}
 	
-	// Method to add two numbers
+	// Method to Add two numbers
 	public int add(int a, int b) {
 		return a + b;
 	}
