@@ -10,7 +10,7 @@ public class Tiger extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 	
-	
+	// Display method
 	@Override
 	public void display() {
 		super.display();

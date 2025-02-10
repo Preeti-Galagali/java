@@ -16,7 +16,7 @@ public class Animal {
 			
 		}
 	
-	// getter methods to get name, age and weight
+	// Getter methods to get name, age and weight
 	public String getName() {
 		return name;
 	}

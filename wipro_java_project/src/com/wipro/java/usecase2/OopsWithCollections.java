@@ -27,15 +27,15 @@ public class OopsWithCollections {
 		Map<Integer, Animal> animalMap = animalList.stream()
 				.collect(Collectors.toMap(Animal :: getAge, animal -> animal)); 
 		
-		// displaying list
+		// Displaying list
 		System.out.println("Animal List:");
 		animalList.forEach(Animal:: display);
 		
-		// displaying set
+		// Displaying set
 		System.out.println("Animal Set:");
 		animalSet.forEach(Animal:: display);
 		
-		// displaying map
+		// Displaying map
 		System.out.println("Animal Map:");
 		animalMap.forEach((key, value) -> {
 			System.out.println("Key: " + key);
