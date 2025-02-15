@@ -1,4 +1,9 @@
-package com.wipro.java.designpattern.factory;
+package com.wipro.java.designpattern;
+
+import com.wipro.java.designpattern.factory.Application;
+import com.wipro.java.designpattern.factory.GUIFactory;
+import com.wipro.java.designpattern.factory.MacOSFactory;
+import com.wipro.java.designpattern.factory.WindowsFactory;
 
 public class Demo {
 
