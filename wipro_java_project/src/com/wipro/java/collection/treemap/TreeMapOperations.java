@@ -8,7 +8,7 @@ public class TreeMapOperations {
 	// Creating a TreeMap
     static TreeMap<Integer, String> treeMap;
 
-    // Method to create TreeMap
+    // method to create TreeMap
     static void createTreeMap() {
         treeMap = new TreeMap<>();
         System.out.println("TreeMap created successfully!");
@@ -83,8 +83,7 @@ public class TreeMapOperations {
             }
         }
     }
-
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         createTreeMap();
         insertElements();
         displayTreeMap();
