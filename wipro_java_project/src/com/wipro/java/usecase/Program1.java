@@ -7,7 +7,7 @@ public class Program1 {
 	public static int countPairs(int N, int[] A) {
         int count = 0;
 
-        // Iterate through all possible pairs (i, j) where i < j
+        // Iterating through possible pairs(i,j)
         for (int i = 0; i < N; i++) {
             for (int j = i + 1; j < N; j++) {
                 int minHeight = Math.min(A[i], A[j]);

@@ -99,7 +99,7 @@ public class Program2 {
 	     Stack<String> stringStack = new Stack<>();
 	     System.out.println("Enter strings to push onto the stack (enter an empty string to stop):");
 
-	     // Read strings until an empty string is entered
+	     // Read string until an empty string is entered
 	     while (true) {
 	         String userInput = scanner.nextLine();
 	         if (userInput.isEmpty()) {
